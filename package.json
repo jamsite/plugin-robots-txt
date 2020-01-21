@@ -39,10 +39,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jamsite/plugin-source-wp.git"
+    "url": "git+https://github.com/jamsite/plugin-robots-txt.git"
   },
   "bugs": {
-    "url": "https://github.com/jamsite/plugin-source-wp/issues"
+    "url": "https://github.com/jamsite/plugin-robots-txt/issues"
   },
-  "homepage": "https://github.com/jamsite/plugin-source-wp#readme"
+  "homepage": "https://github.com/jamsite/plugin-robots-txt#readme"
 }

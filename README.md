@@ -1,18 +1,12 @@
-# plugin-source-wp
+# plugin-robots-txt
 
-Wordpress Jamsite source plugin. Reads Wordpress site data with rest api.
+Creates robots.txt file.
 
 ## Install
 
-`npm i @jamsite/plugin-source-wp`
-
-## Cache
-
-Downloaded data may be serialized and saved in cache directory as json files.
+`npm i @jamsite/plugin-robots-txt`
 
 ## Options
 
-- `refreshCache [default:false]` - refetch data and update cache
-- `useCache [default:true]` - enable cache
-- `endpoint` - wp rest-api endpoint
-- `exclude` - array of content types to exclude
+- `disallow [default:true]`  - outputs Disallow: /
+- `sitemap  [default:false]` - outputs Sitemap: /sitemap.xml
